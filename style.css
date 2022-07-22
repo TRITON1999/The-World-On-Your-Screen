@@ -1,0 +1,300 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: hsl(0, 0%, 100%);
+}
+.titleBar{
+    width: calc( 100vw - 100px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 55px;
+    background-color: hsl(0, 0%, 98%);
+    border-bottom: 2px solid hsl(0, 1%, 66%);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+p.bolder{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.dark-mode{
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
+.csselect{
+    border-radius: 2px;
+    position: absolute;
+    right: 50px;
+    border: 2px solid hsl(0, 1%, 66%);
+    background-color: white;
+    
+}
+.region{
+    color: rgb(143, 144, 145);
+}
+.csselected{
+    display: flex;
+    justify-content: space-between;
+}
+.csoption{
+    width: 150px;
+    height: 28px;
+    margin: 2px 5px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.hide{
+    display: none;
+}
+.main{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.search-bar{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 250px;
+    height: 30px;
+    margin: 0;
+    margin-left: 8px;
+    border: none;
+    display: inline-block;
+}
+section{
+    background-color: white;
+    padding-left: 10px;
+    border: 2px solid hsl(0, 1%, 66%);
+    border-radius: 2px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    height: 32px;
+}
+select{
+    height: 35px;
+    width: 150px;
+}
+option{
+    border-radius: 0;
+    background-color: white;
+    height: 30px;
+}
+.content{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 70px;
+}
+
+.content p{
+    font-size: .8rem;
+}
+.content p span{
+    color: rgb(129, 129, 129);
+    font-weight: bold;
+}
+.card{
+    border-radius: 5px;
+    min-height: 300px;
+    min-width: 250px;
+    background-color: hsl(0, 0%, 98%);
+}
+.inner{
+    width: 100%;
+    min-height: 125px;
+    margin: 15px 30px;
+}
+.content h2{
+    padding: 0;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+img{
+    height: 150px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.let-the-darkness-spread{
+    background-color: hsl(207, 26%, 17%);
+    color: whitesmoke;
+}
+.let-the-darkness-spread .titleBar{
+    background-color: hsl(209, 23%, 22%);
+    color: white;
+    border-bottom: none;
+    box-shadow: 0 0 2px hsl(209, 23%, 22%);
+}
+.let-the-darkness-spread .main .search-bar section{
+    border: none;
+}
+
+.let-the-darkness-spread .main .card{
+    background-color: hsl(209, 23%, 22%);
+}
+.let-the-darkness-spread .main .search-bar section,.let-the-darkness-spread .main .search-bar input{
+    background-color: hsl(209, 23%, 22%);
+    color: white;
+}
+.let-the-darkness-spread .main .search-bar .csselect{
+    background-color: hsl(209, 23%, 22%);
+    color: white;
+    border: none;
+}
+
+
+/* from here the css of support.html starts */
+
+.support-container{
+    margin-top: 50px;
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+}
+.support-flag{
+    height: 100%;
+    width: 100%;
+}
+/* .support-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80% 20%;
+
+} */
+.span2row{
+    grid-column: span 2 ;
+}
+.support-content{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.hight{
+    height: 200px;
+}
+.centre-alien{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.centre-aliens{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.centre-alien i{
+    margin-right: 5px;
+}
+.country-name{
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin-top: 0;
+}
+.Border-Countries{
+    display: flex;
+}
+.borders{
+    
+    background-color: hsl(0, 0%, 98%);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.ins{
+    display: inline;
+}
+.bol{
+    font-weight: bold;
+}
+.imageOfCountry{
+    height: 50vh;
+    border-radius: 5px;
+}
+.let-the-darkness-spread .main .support-container .support-content .span2row p .borders{
+    background-color: hsl(209, 23%, 22%);
+    color: white;
+}
+/* -------------------------------- */
+
+@media (max-width:1300px){
+    .content{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width:1000px){
+    .content{
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+    .card{
+        height: 300px;
+    }
+}
+@media (max-width:664px){
+    .content{
+        grid-template-columns: 1fr;
+    }
+    input{
+        display: inline;
+    }
+    .search-bar{
+        height: 85px;
+    }
+    .csselect{
+        width: 160px;
+        top: 150px;
+        left: 50px;
+        
+    }
+
+    /* ---this for the support html----- */
+    .support-container{
+        margin-top: -10px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .support-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .span2row{
+        grid-column: span 1 ;
+    }
+    .centre-aliens{
+        display: flex;
+        align-items: center;
+        font-family: sans-serif;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .support-flag{
+        height: 35vh;
+    }
+    .imageOfCountry{
+        height: 35vh;
+        border-radius: 10px;
+    }
+}

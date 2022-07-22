@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="">
+
+    <div class="titleBar">
+      <p class="bolder">Where in the world?</p>
+      <p class="dark-mode">
+        <i class="fa-regular fa-moon"></i><span> Dark Mode</span>
+      </p>
+    </div>
+
+    <div class="main">
+
+      <div class="search-bar">
+        <section >
+          <span class="search"
+            ><i class="fa-solid fa-magnifying-glass"></i></span
+          ><input type="text" placeholder="Search for the country..." />
+        </section>
+        <div class="csselect">
+          <div class="csoption csselected">
+            <span class="region">region..</span>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <div value="asia" class="csoption hide t">Asia</div>
+          <div value="america" class="csoption hide t">America</div>
+          <div value="africa" class="csoption hide t">Africa</div>
+          <div value="europe" class="csoption hide t">Europe</div>
+          <div value="oceania" class="csoption hide t">Oceania</div>
+        </div>
+      </div>
+
+      <div class="content"></div>
+    </div>
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/8bd6d152dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
