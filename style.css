@@ -211,7 +211,8 @@ img{
     margin-top: 0;
 }
 .Border-Countries{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 .borders{
     
@@ -291,10 +292,15 @@ img{
         padding-right: 0px;
     }
     .support-flag{
-        height: 35vh;
+        width: 80vw;
     }
     .imageOfCountry{
         height: 35vh;
         border-radius: 10px;
+    }
+    span.Border-Countries{
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
